@@ -39,8 +39,8 @@ body {
 }
 
 .section {
-    padding-top: 96px;
     padding-bottom: 96px;
+    padding-top: 96px;
 }
 
 p h1 h2 h3 h4 h5 h6 {
@@ -70,7 +70,6 @@ button {
 }
 
 .container {
-    margin: 0 auto;
     width: 100%;
     padding-left: 15px;
     padding-right: 15px;
@@ -280,9 +279,6 @@ button {
     background: var(--accent-color);
 }
 
-.about-container {
-    height: 104px;
-}
 
 .hero-item {
     font-weight: 500;
@@ -391,13 +387,15 @@ button {
 
 .hero-client {
     display: flex;
+    flex-wrap: wrap;
     justify-content: center;
     gap: 24px;
 
 }
 
 .hero-client-flex {
-    width: calc((100% - 3 * 24px) / 6 );
+    /* width: calc((100% - 3 * 24px) / 6 ); */
+    width: 100%;
 }
 
 .hero-client-link {
@@ -961,6 +959,168 @@ button {
 
 .header-btn {
     margin: 0 auto;
+}
+
+
+
+@media screen and (min-width: 428px) {
+    .container {
+        width: 428px;
+    }
+        /* ABOUT US */
+        
+    .hero-item {
+        text-align: center;
+        font-weight: 700;
+        font-size: 36px;
+        line-height: 1.11;
+        letter-spacing: 0.02em;
+        color: var(--color-grey);
+        margin-bottom: 8px;
+        width: 396px;
+        height: 40px;
+    }
+
+    .hero-list {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 72px;
+    }
+
+    .hero-top-text {
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 1.5;
+        letter-spacing: 0.02em;
+        color: var(--praimary-text-color);
+        width: 396px;
+
+    }
+        /* ABOUT US */
+
+        /* PEOPLE */
+    .container-people {
+        width: 294px;
+    } 
+
+    .hero-list-people {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 72px;
+        justify-content: center;
+    }
+
+    .hero-item-people {
+        text-align: center;
+        font-weight: 500;
+        font-size: 20px;
+        line-height: 1.2;
+        letter-spacing: 0.02em;
+        color: var(--color-grey);
+        margin-bottom: 8px;
+    }
+
+    .hero-people-text {
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 1.5;
+        letter-spacing: 0.02em;
+        color: var(--praimary-text-color);
+        text-align: center;
+    }
+}
+        /* PEOPLE*/
+
+
+@media screen and (min-width: 768px) {
+    .container {
+        width: 768px;
+    }
+    /* ABOUT US */
+    .hero-item {
+        display: flex;
+        width: 264px;
+    }
+
+    .hero-flex {
+        width: calc((100% - 24px) / 2);
+    }
+
+    .hero-list {
+        display: flex;
+        gap: 72px 24px;
+    }
+
+    .hero-top-text {
+        width: 356px;
+    }
+    /* ABOUT US */
+
+    .container-people>.container {
+        max-width: 582px;
+    }
+
+    .hero-list-people {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 64px 24px;
+        justify-content: center;
+    }
+
+
+
+
+
+}
+
+@media screen and (min-width: 1158px) {
+    .container {
+        width: 1158px;
+    }
+
+    .hero-flex {
+        flex-basis: calc((100% - 3 * 24px) / 4);
+    }   
+
+    .hero-top-text {
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 1.5;
+        letter-spacing: 0.02em;
+        color: var(--praimary-text-color);
+        width: 264px;
+    }
+
+    .hero-item {
+        font-weight: 500;
+        font-size: 20px;
+        line-height: 1.2;
+        letter-spacing: 0.02em;
+        color: var(--color-grey);
+        margin-bottom: 8px;
+    }
+
+    .hero-list {
+        display: flex;
+        gap: 24px;
+    }
+
+    .section {
+        padding-top: 120px;
+        padding-bottom: 120px;
+    }
+
+
+}
+
+@media (max-width: 1157px) {
+    .container-soc-flex {
+        display: none;
+    }
+
+    .hero-sec {
+        display: none;
+    }
 }
 
 
