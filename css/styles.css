@@ -70,6 +70,7 @@ button {
 }
 
 .container {
+    margin: 0 auto;
     width: 100%;
     padding-left: 15px;
     padding-right: 15px;
@@ -388,9 +389,8 @@ button {
 
 .hero-client {
     display: flex;
-    flex-wrap: wrap;
     justify-content: center;
-    gap: 72px 24px;
+    gap: 72px 16px;
 
 }
 
@@ -1025,8 +1025,16 @@ button {
         color: var(--praimary-text-color);
         text-align: center;
     }
+    /* PEOPLE*/
+
+   .hero-client {
+       display: flex;
+       flex-wrap: wrap;
+       justify-content: center;
+       gap: 72px 16px;
+
+   }
 }
-        /* PEOPLE*/
 
 
 
@@ -1056,7 +1064,7 @@ button {
 
     /* PEOPLE */
     .container-people > .container {
-        max-width: 582px;
+        max-width: 584px;
     }
 
     .hero-list-people {
@@ -1079,8 +1087,8 @@ button {
         width: calc((100% - 3 * 24px) / 3);
     }
 
-    .container-client > .container {
-        max-width: 552px;    
+    .sec-client > .container {
+        max-width: 606px;   
 
     }
 
@@ -1091,9 +1099,11 @@ button {
 }
 
 @media screen and (min-width: 1158px) {
+
     .container {
         width: 1158px;
-        margin: 0 auto;
+        max-width: 0 auto;
+        
     }
 
     .hero-flex {
@@ -1131,8 +1141,19 @@ button {
     /* CUSTOMERS */
     .hero-client-flex {
         width: calc((100% - 3 * 24px) / 6);
-        }
+    }
 
+    .hero-client {
+        display: flex;
+        flex-wrap: nowrap;
+        justify-content: center;
+        gap: 24px;
+    }
+
+    .sec-client>.container {
+        max-width: 100%;
+    
+    }
 
     /* CUSTOMERS */
 
