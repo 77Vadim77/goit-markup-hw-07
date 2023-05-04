@@ -219,12 +219,15 @@ button {
     rgba(46, 47, 66, 0.7),
     rgba(46, 47, 66, 0.7)
      ),
-     url(../images/people-office.jpg);
+
+     /*url(../images/people-office.jpg);*/
+
+     url(../images/hero-mob.jpg);
     padding-bottom: 600px;
     padding-top: 188px;
     padding-bottom: 188px;
     text-align: center;
-    width: 1440px;
+    width: 428px;
     margin-left: auto;
     margin-right: auto;
 
@@ -963,212 +966,7 @@ button {
 
 
 
-@media screen and (min-width: 428px) {
-    .container {
-        width: 428px;
-    }
-        /* ABOUT US */
-        
-    .hero-item {
-        text-align: center;
-        font-weight: 700;
-        font-size: 36px;
-        line-height: 1.11;
-        letter-spacing: 0.02em;
-        color: var(--color-grey);
-        margin-bottom: 8px;
-        width: 396px;
-        height: 40px;
-    }
 
-    .hero-list {
-        display: flex;
-        flex-wrap: wrap;
-        gap: 72px;
-    }
-
-    .hero-top-text {
-        font-weight: 500;
-        font-size: 16px;
-        line-height: 1.5;
-        letter-spacing: 0.02em;
-        color: var(--praimary-text-color);
-        width: 396px;
-
-    }
-        /* ABOUT US */
-
-        /* PEOPLE */ 
-
-    .hero-list-people {
-        display: flex;
-        flex-wrap: wrap;
-        gap: 72px;
-        justify-content: center;
-    }
-
-    .hero-item-people {
-        text-align: center;
-        font-weight: 500;
-        font-size: 20px;
-        line-height: 1.2;
-        letter-spacing: 0.02em;
-        color: var(--color-grey);
-        margin-bottom: 8px;
-    }
-
-    .hero-people-text {
-        font-weight: 400;
-        font-size: 16px;
-        line-height: 1.5;
-        letter-spacing: 0.02em;
-        color: var(--praimary-text-color);
-        text-align: center;
-    }
-    /* PEOPLE*/
-
-   .hero-client {
-       display: flex;
-       flex-wrap: wrap;
-       justify-content: center;
-       gap: 72px 16px;
-
-   }
-}
-
-
-
-@media screen and (min-width: 768px) {
-    .container {
-        width: 768px;
-    }
-    /* ABOUT US */
-    .hero-item {
-        display: flex;
-        width: 264px;
-    }
-
-    .hero-flex {
-        width: calc((100% - 24px) / 2);
-    }
-
-    .hero-list {
-        display: flex;
-        gap: 72px 24px;
-    }
-
-    .hero-top-text {
-        width: 356px;
-    }
-    /* ABOUT US */
-
-    /* PEOPLE */
-    .container-people > .container {
-        max-width: 584px;
-    }
-
-    .hero-list-people {
-        display: flex;
-        flex-wrap: wrap;
-        gap: 64px 24px;
-        justify-content: center;
-    }
-
-    /* PEOPLE */
-
-    /* CUSTOMERS */
-
-    .hero-client {
-        justify-content: center;
-        gap: 64px 24px;
-
-    } 
-    .hero-client-flex {
-        width: calc((100% - 3 * 24px) / 3);
-    }
-
-    .sec-client > .container {
-        max-width: 606px;   
-
-    }
-
-    /* CUSTOMERS */
-
-
-
-}
-
-@media screen and (min-width: 1158px) {
-
-    .container {
-        width: 1158px;
-        max-width: 0 auto;
-        
-    }
-
-    .hero-flex {
-        flex-basis: calc((100% - 3 * 24px) / 4);
-    }   
-
-    .hero-top-text {
-        font-weight: 400;
-        font-size: 16px;
-        line-height: 1.5;
-        letter-spacing: 0.02em;
-        color: var(--praimary-text-color);
-        width: 264px;
-    }
-
-    .hero-item {
-        font-weight: 500;
-        font-size: 20px;
-        line-height: 1.2;
-        letter-spacing: 0.02em;
-        color: var(--color-grey);
-        margin-bottom: 8px;
-    }
-
-    .hero-list {
-        display: flex;
-        gap: 24px;
-    }
-
-    .section {
-        padding-top: 120px;
-        padding-bottom: 120px;
-    }
-
-    /* CUSTOMERS */
-    .hero-client-flex {
-        width: calc((100% - 3 * 24px) / 6);
-    }
-
-    .hero-client {
-        display: flex;
-        flex-wrap: nowrap;
-        justify-content: center;
-        gap: 24px;
-    }
-
-    .sec-client>.container {
-        max-width: 100%;
-    
-    }
-
-    /* CUSTOMERS */
-
-
-}
-
-@media (max-width: 1157px) {
-    .container-soc-flex {
-        display: none;
-    }
-
-    .hero-sec {
-        display: none;
-    }
-}
 
 
 
