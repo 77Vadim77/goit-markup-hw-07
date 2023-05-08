@@ -5,18 +5,6 @@
 
     /* ABOUT US */
 
-    .hero-item {
-        text-align: center;
-        font-weight: 700;
-        font-size: 36px;
-        line-height: 1.11;
-        letter-spacing: 0.02em;
-        color: var(--color-grey);
-        margin-bottom: 8px;
-        width: 396px;
-        height: 40px;
-    }
-
     .hero-list {
         display: flex;
         flex-wrap: wrap;
@@ -29,7 +17,6 @@
         line-height: 1.5;
         letter-spacing: 0.02em;
         color: var(--praimary-text-color);
-        width: 396px;
 
     }
 
@@ -181,7 +168,6 @@
     /* ABOUT US */
     .hero-item {
         display: flex;
-        width: 264px;
     }
 
     .hero-flex {
@@ -189,12 +175,7 @@
     }
 
     .hero-list {
-        display: flex;
         gap: 72px 24px;
-    }
-
-    .hero-top-text {
-        width: 356px;
     }
 
     /* ABOUT US */
@@ -216,7 +197,7 @@
     /* CUSTOMERS */
 
     .sec-client>.container {
-        max-width: 606px;
+        max-width: 582px;
 
     }
 
@@ -227,7 +208,7 @@
     }
 
     .hero-client-flex {
-        width: calc((100% - 6 * 24px) / 3);
+        width: calc((100% - 48px) / 3);
     }
     /* CUSTOMERS */
 
@@ -353,6 +334,27 @@
        color: var(--body-color);
    }
     /* FOOTER */
+
+    /* MODAL */
+
+        .modal-window {
+            position: absolute;
+            width: 408px;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%) scale(1);
+            background: #fcfcfc;
+            box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 2px 1px rgba(0, 0, 0, 0.2);
+            border-radius: 4px;
+            transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1) linear;
+            padding: 72px 24px 24px;
+        }
+
+
+
+
+
+    /* MODAL */
 
 }
 
@@ -531,7 +533,7 @@
         padding-top: 188px;
         padding-bottom: 188px;
         text-align: center;
-        width: 1158px;
+        width: 1440px;
         margin-left: auto;
         margin-right: auto;
 
@@ -638,6 +640,25 @@
     }
 
         /* FOOTER */
+
+        /* MODAL */
+
+        .modal-window {
+            position: absolute;
+            width: 408px;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%) scale(1);
+            background: #fcfcfc;
+            box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 2px 1px rgba(0, 0, 0, 0.2);
+            border-radius: 4px;
+            transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1) linear;
+            padding: 72px 24px 24px;
+        }
+
+
+
+        /* MODAL */
 
 }
 
